@@ -65,6 +65,7 @@ class FirstScreen extends StatelessWidget{
               blurRadius: 10,
             )
           ],
+          border: Border.all(color: Colors.green, width: 3),
         ),
       ),
 
