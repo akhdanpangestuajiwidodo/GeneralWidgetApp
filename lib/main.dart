@@ -53,9 +53,12 @@ class FirstScreen extends StatelessWidget{
           "Hi",
           style: TextStyle(fontSize: 40),
         ),
-        color: Colors.blue,
         padding: EdgeInsets.all(10),
         margin: EdgeInsets.all(10),
+        decoration: BoxDecoration(
+          color: Colors.red,
+          shape: BoxShape.circle,
+        ),
       ),
 
       floatingActionButton: FloatingActionButton(
