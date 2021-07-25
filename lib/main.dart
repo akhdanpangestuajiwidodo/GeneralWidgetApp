@@ -22,6 +22,15 @@ class FirstScreen extends StatelessWidget{
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        leading: IconButton(
+          icon: Icon(
+            Icons.menu,
+            color: Colors.white,
+          ),
+          onPressed: () {
+            // action menu
+          },
+        ),
         title: Text("First Screen"),
         actions: <Widget>[
           IconButton(
