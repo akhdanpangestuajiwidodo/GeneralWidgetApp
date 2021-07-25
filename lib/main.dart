@@ -22,6 +22,7 @@ class FirstScreen extends StatelessWidget{
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+
         leading: IconButton(
           icon: Icon(
             Icons.menu,
@@ -31,7 +32,9 @@ class FirstScreen extends StatelessWidget{
             // action menu
           },
         ),
+
         title: Text("First Screen"),
+
         actions: <Widget>[
           IconButton(
             icon: Icon(
@@ -43,6 +46,10 @@ class FirstScreen extends StatelessWidget{
             },
           )
         ],
+      ),
+
+      body: Center(
+        child: Text("Hello World!"),
       ),
     );
   }
