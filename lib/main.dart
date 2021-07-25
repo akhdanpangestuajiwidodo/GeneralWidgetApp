@@ -48,9 +48,16 @@ class FirstScreen extends StatelessWidget{
         ],
       ),
 
-      body: Center(
-        child: Text("Hello World!"),
+      body: Container(
+        child: Text(
+          "Hi",
+          style: TextStyle(fontSize: 40),
+        ),
+        color: Colors.blue,
+        padding: EdgeInsets.all(10),
+        margin: EdgeInsets.all(10),
       ),
+
       floatingActionButton: FloatingActionButton(
         child: Icon(Icons.add),
         onPressed: () {
