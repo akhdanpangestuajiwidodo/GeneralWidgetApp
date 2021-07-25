@@ -58,6 +58,13 @@ class FirstScreen extends StatelessWidget{
         decoration: BoxDecoration(
           color: Colors.red,
           shape: BoxShape.circle,
+          boxShadow: [
+            BoxShadow(
+              color: Colors.black,
+              offset: Offset(3,6),
+              blurRadius: 10,
+            )
+          ],
         ),
       ),
 
